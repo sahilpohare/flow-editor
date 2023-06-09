@@ -1,0 +1,16 @@
+{
+    "on_event" : "orders.*",
+    "steps" : [
+        {
+            "type" : "filter",
+            "data" : {
+                "user_id" : {
+                    "$in" : [
+                        "sahil",
+                        "archit"
+                    ]
+                }
+            }
+        }
+    ]
+}
