@@ -39,5 +39,5 @@ func Example() {
 	}
 
 	// Check if the filter matches the data
-	fmt.Println(Filter(filterMap, d))
+	fmt.Println(flow.Filter(filterMap, d))
 }
